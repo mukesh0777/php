@@ -1,0 +1,64 @@
+body {
+    color: #fff;
+    background: #63738a;
+    font-family: 'Roboto', sans-serif;
+}
+.detailsBtn{
+	color: #fff;
+	background-color: #63738a;
+	border-color: #63738a;
+	padding: .5rem;
+	font-size: 1.25rem;
+	border: 1px solid transparent;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	text-align: center;
+	border-radius: 3px;
+    margin-top:35% ;
+}
+.detailsBtn:hover {
+    color: #fff;
+    background-color: #516179;
+    border-color: #516179;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none;
+    width:100%;
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px;
+    color: black;
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
